@@ -1,0 +1,136 @@
+.bento-wrapper {
+  margin: 3rem 7rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 1.5rem;
+  height: 100vh;
+  widht: 100vw;
+}
+
+.bento-box-1 {
+  grid-area: 1 / 1 / 4 / 5;
+}
+
+.bento-box-1 img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.main-news {
+  display: flex;
+  flex-diretcion: row;
+  margin: 0.75rem 0;
+}
+
+.main-news h1 {
+  width: 50rem;
+  font-size: 2.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.bento-box-1-data {
+  width: 50rem;
+  font-size: 1rem;
+  padding-left: 2rem;
+  margin-top: 1.05rem;
+  text-align: justify;
+}
+
+.bento-box-1-data p {
+  margin-bottom: 2rem;
+}
+
+.bento-box-1-data a {
+  color: white;
+  background: #894845;
+  padding: 0.5rem 3rem;
+  border-radius: 5px;
+}
+
+.bento-box-2 {
+  grid-area: 1 / 5 / 4 / 7;
+  background: #f9f4f3;
+  border-radius: 5px;
+}
+
+.bento-box-2-heading {
+  font-size: 2.25rem;
+  color: #5b3333;
+  margin: 0 1.5rem;
+  margin-top: 1rem;
+}
+
+.bento-box-2 article {
+  padding: 1.5rem 0;
+  margin: 0 1.75rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.bento-box-2 article h4 {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-bottom: 0.35rem;
+}
+
+.bento-box-2 article p {
+  font-size: 0.85rem;
+  color: #5b3333;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bento-box-3 {
+  grid-area: 4 / 1 / 5 / 7;
+  display: flex;
+  flex-direction: row;
+}
+
+.bento-box-3 article {
+  display: flex;
+}
+
+.bento-box-3-image {
+  width: 10vw;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.bento-box-3-data {
+  margin-left: 1rem;
+  margin-right: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.bento-box-3-data h4 {
+  color: #a55951;
+  font-size: 1.75rem;
+}
+
+.bento-box-3-data h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #301a1b;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.bento-box-3-data p {
+  padding-top: 0.9rem;
+  font-size: 0.9rem;
+}
