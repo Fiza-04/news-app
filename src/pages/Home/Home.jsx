@@ -1,11 +1,13 @@
-import CategorizedSlider from "../../components/CategorizedSlider/CategorizedSlider";
+// import CategorizedSlider from "../../components/CategorizedSlider/CategorizedSlider";
 import HeroBentoGrid from "../../components/Hero/HeroBentoGrid";
 
 const Home = () => {
   return (
     <main>
-      <HeroBentoGrid />
-      <CategorizedSlider />
+      <section>
+        <HeroBentoGrid />
+      </section>
+      {/* <CategorizedSlider /> */}
     </main>
   );
 };
